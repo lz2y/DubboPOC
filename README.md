@@ -20,3 +20,5 @@ Apache Dubbo 漏洞POC
 
   * [GHSL-2021-034_043: Multiple pre-auth RCEs in Apache Dubbo](https://securitylab.github.com/advisories/GHSL-2021-034_043-apache-dubbo/)
   * [dubbo源码浅析：默认反序列化利用之hessian2](https://www.anquanke.com/post/id/197658)
+* 分析文章
+  * https://mp.weixin.qq.com/s/vHJpE2fZ8Lne-xFggoQiAg 
